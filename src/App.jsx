@@ -10,8 +10,8 @@ import Education from "./components/Education.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
-// import SpotlightCard from './components/SpotlightCard';
 
+export const lenis = new Lenis();
 const App = () => {
   useEffect(() => {
     /// Initialize Lenis
@@ -33,9 +33,8 @@ const App = () => {
       </div>
 
       <div className="top-4 absolute inset-x-0 container mx-auto md:px-8 px-4">
-        {/* <SlideTabsExample /> */}
-          <Navbar />
-        <Hero />
+        <Navbar />
+        <Hero  />
         <About />
         <Skills />
         <Education />

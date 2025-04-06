@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 max-w-[600px] pointer-events-auto flex w-full items-center justify-between rounded-full px-6 py-1 transition-all duration-500 ease-in-out sm:pr-4 border-b border-neutral-900 backdrop-blur-md z-10">
-      <ul className="flex gap-6 text-sm text-text-secondary sm:flex font-thik">
+    <nav className="fixed top-3 left-1/2 transform -translate-x-1/2 max-w-[500px] pointer-events-auto flex w-full items-center justify-center rounded-full px-6 py-1 transition-all duration-500 ease-in-out sm:pr-4 border-b border-neutral-900 backdrop-blur-md z-10 h-10 ">
+      <ul className="flex gap-6 text-lg  text-text-secondary sm:flex font-thik">
         {["Home", "About", "Projects", "Contact"].map((item) => (
           <li key={item} className="group relative">
-            <a href={`/${item.toLowerCase()}`}>
+            <a href={`#${item.toLowerCase()}`}>
               <span className="relative inline-flex overflow-hidden">
                 <div className="transform-gpu transition-transform duration-500 group-hover:-translate-y-[110%] group-hover:skew-y-12">
                   {item}
@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button className="h-10 w-10 rounded-full border border-bg-700 bg-backdrop text-text-primary shadow backdrop-blur-md transition-all active:scale-90 flex items-center justify-center">
+      {/* <button className="h-10 w-10 rounded-full border border-bg-700 bg-backdrop text-text-primary shadow backdrop-blur-md transition-all active:scale-90 flex items-center justify-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
@@ -43,7 +43,7 @@ const Navbar = () => {
           <path d="m19.07 4.93-1.41 1.41"></path>
         </svg>
         <span className="sr-only">Toggle theme</span>
-      </button>
+      </button> */}
     </nav>
   );
 };
