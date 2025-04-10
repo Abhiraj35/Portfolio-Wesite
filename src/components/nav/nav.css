@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Canopee;
+    src: url('../../assets/fonts/Canopee.ttf') format('truetype');
+}
 .nav {
     position: fixed;
     z-index: 2;
+    font-family: Canopee;
 }
 .navbar{
     position: fixed;

@@ -20,7 +20,7 @@ function Nav() {
             {/* overlay div */}
             <div className="nav-overlay " style={{top:navOpen ? "0" : "-100vh",transitionDelay:navOpen ? "0s" : "0s"}}
             >
-                <ul className='nav-links font-[Canopee] font-extrabold '>
+                <ul className='nav-links font-extrabold '>
                     <li className='nav-item '>
                         {/* <Link to='/' onClick={() => setNavOpen(!navOpen)} style={{top:navOpen ? "0" : "130px",transitionDelay:navOpen ? "1s" : "0s"}}>Home</Link> */}
                         <a href="#home" onClick={() => setNavOpen(!navOpen)} style={{top:navOpen ? "0" : "130px",transitionDelay:navOpen ? "1s" : "0s"}}>Home</a>
