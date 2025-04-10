@@ -10,6 +10,7 @@ import Education from "./components/Education.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Nav from "./components/nav/Nav.jsx"
 
 export const lenis = new Lenis();
 const App = () => {
@@ -33,14 +34,19 @@ const App = () => {
       </div>
 
       <div className="top-4 absolute inset-x-0 container mx-auto md:px-8 px-4">
-        <Navbar />
-        <Hero  />
+        <div className="hidden md:block">
+          <Navbar />
+        </div>
+        <div className="block md:hidden">
+          <Nav/>
+        </div>
+        <Hero />
         <About />
         <Skills />
         <Education />
         <Project />
         <Contact />
-        
+
         {/* card */}
         {/* <SpotlightCard
           className="custom-spotlight-card"
@@ -54,4 +60,3 @@ const App = () => {
 };
 
 export default App;
-
