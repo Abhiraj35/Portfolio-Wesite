@@ -31,7 +31,7 @@ function Nav() {
                     <li className='nav-item'>
                         {/* <Link to="/project" onClick={() => setNavOpen(!navOpen)} style={{top:navOpen ? "0" : "130px",transitionDelay:navOpen ? "1s" : "0s"}}>Project</Link> */}
 
-                        <a href="#project" onClick={() => setNavOpen(!navOpen)} style={{top:navOpen ? "0" : "130px",transitionDelay:navOpen ? "1s" : "0s"}}>Project</a>
+                        <a href="#projects" onClick={() => setNavOpen(!navOpen)} style={{top:navOpen ? "0" : "130px",transitionDelay:navOpen ? "1s" : "0s"}}>Projects</a>
                         <div className='nav-item-wrapper'></div>
                     </li>
 
