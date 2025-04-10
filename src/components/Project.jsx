@@ -3,7 +3,7 @@ import { PROJECTS } from "../constants";
 import SpotlightCard from "./SpotlightCard";
 const Projects = () => {
   return (
-    <div className="border-b border-neutral-900 p-4">
+    <div id="projects" className="border-b border-neutral-900 p-4">
       <h1 className="my-20 text-center text-4xl font-thin">Projects</h1>
       <div>
         {PROJECTS.map((project, index) => (

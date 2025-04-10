@@ -3,7 +3,7 @@ import { EDUCATION } from "../constants";
 
 const Education = () => {
   return (
-    <div className="border-b border-neutral-900 pb-4">
+    <div id="education" className="border-b border-neutral-900 pb-4">
       <h1 className="my-20 text-center text-4xl font-thin">Education</h1>
       <div className="flex flex-col gap-8">
         {EDUCATION.map(({ year, degree, institution, description }, index) => (
