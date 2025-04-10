@@ -4,6 +4,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdOutlineAttachEmail } from "react-icons/md";
 const Contact = () => {
   return (
+    
     <div id="contact" className="border-b border-neutral-900 pb-20">
       <div className="mt-10">
       <Button children={<h1 className="text-center text-4xl font-thin ">Get in Touch Me</h1>}/>
