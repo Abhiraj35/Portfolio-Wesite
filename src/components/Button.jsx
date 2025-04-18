@@ -3,8 +3,8 @@ import React from "react";
 const Button = ({ children,classname="" }) => {
   return (
     // change the color on hover in section classname
-    <section className="grid place-content-center hover:text-white">
-      <button className="group flex h-10 items-center gap-2 rounded-full bg-neutral-200 pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-[#454644] hover:pl-2  active:bg-neutral-700 hover:text-white">
+    <section className="grid place-content-center text-black hover:text-white">
+      <button className="group flex h-10 items-center gap-2 rounded-full bg-neutral-200 pl-3 pr-4 transition-all duration-300 ease-in-out hover:bg-black  hover:pl-2  active:bg-neutral-700">
         <span className="rounded-full bg-black p-1 text-sm transition-colors duration-300 group-hover:bg-white ">
           <svg
             stroke="currentColor"
@@ -23,7 +23,7 @@ const Button = ({ children,classname="" }) => {
             <polyline points="12 5 19 12 12 19"></polyline>
           </svg>
         </span>
-        <span className={`text-black transition-colors duration-300 hover:text-white ${classname}` }>{children}</span>
+        <span className={` transition-colors duration-300  ${classname}` }>{children}</span>
       </button>
     </section>
   );

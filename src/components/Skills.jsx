@@ -24,7 +24,9 @@ const Skills = () => {
                 <div className="rounded-2xl border-4 border-neutral-800 p-4 ">
                   <FaHtml5 className="text-4xl text-red-400 " />
                 </div>
+                
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
 
             <SpotlightCard
@@ -33,6 +35,7 @@ const Skills = () => {
                   <FaCss3 className="text-4xl text-cyan-400"/>
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
             <SpotlightCard
               children={
@@ -40,6 +43,7 @@ const Skills = () => {
                   <RiJavascriptFill className="text-4xl text-yellow-400"/>
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
 
             <SpotlightCard
@@ -48,6 +52,7 @@ const Skills = () => {
                   <RiReactjsLine className="text-4xl text-cyan-400" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
 
             <SpotlightCard
@@ -56,6 +61,7 @@ const Skills = () => {
                   <RiTailwindCssFill className="text-4xl text-cyan-400" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
             <SpotlightCard
               children={
@@ -63,6 +69,7 @@ const Skills = () => {
                   <TbBrandFramerMotion className="text-4xl text-cyan-400" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
           </div>
         </div>
@@ -102,6 +109,7 @@ const Skills = () => {
                   <FaFigma  className="text-4xl " />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
 
             <SpotlightCard
@@ -110,6 +118,7 @@ const Skills = () => {
                   <SiCanva className="text-4xl text-[#34BBD1]" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
             <SpotlightCard
               children={
@@ -117,6 +126,7 @@ const Skills = () => {
                   <FaGithub  className="text-4xl text-white" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
             <SpotlightCard
               children={
@@ -124,6 +134,7 @@ const Skills = () => {
                   <FaGitAlt   className="text-4xl text-orange-400" />
                 </div>
               }
+              spotlightColor="rgba(255, 255, 255, 0.25)"
             />
           </div>
         </div>

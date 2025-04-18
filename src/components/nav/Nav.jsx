@@ -11,7 +11,7 @@ function Nav() {
         <div className="nav-containar">
             <div className="navbar">
                 <div className="menu-toggle cursor-pointer" onClick={() => setNavOpen(!navOpen)}>
-                    <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox"}>
+                    <div className={navOpen ? "hamBox hamBoxOpen" : "hamBox" }>
                         <span className={navOpen ? "lineTop spin" : "lineTop"}></span>
                         <span className={navOpen ? "lineBottom spin" : "lineBottom"}></span>
                     </div>
@@ -50,7 +50,6 @@ function Nav() {
                     </li>
                 </ul>
 
-
                 {/* nav footer */}
                 <div className="nav-footer">
                     <div className="location" style={{
@@ -79,6 +78,7 @@ function Nav() {
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>

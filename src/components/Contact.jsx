@@ -7,7 +7,7 @@ const Contact = () => {
     
     <div id="contact" className="border-b border-neutral-900 pb-20">
       <div className="mt-10">
-      <Button children={<h1 className="text-center text-4xl font-thin ">Get in Touch Me</h1>}/>
+      <Button children={"Get in Touch Me"}/>
       </div>
       <div className="mt-10 text-center tracking-tighter flex  itms-center justify-center gap-5">
         <p className="my-4 flex items-center gap-2"><FaLocationDot/> {CONTACT.address}</p>
