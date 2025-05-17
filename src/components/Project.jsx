@@ -7,7 +7,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 const Projects = () => {
   return (
     <div id="projects" className="border-b border-neutral-900 px-4 py-12">
-      <h1 className="mb-16 text-center text-4xl font-thin text-white">Projects</h1>
+      <h1 className="mb-16 text-center md:text-4xl text-3xl font-thin text-white">Selected Projects</h1>
       <div className="space-y-10">
         {PROJECTS.map((project, index) => (
           <ScrollFadeIn key={index} delay={index * 0.2}>
