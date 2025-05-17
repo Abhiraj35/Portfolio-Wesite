@@ -38,7 +38,9 @@ export const PROJECTS = [
     image: project1,
     description:
       "AgriEmpower is a platform connecting farmers and buyers for direct trade. Built during my first-year inter-college hackathon, it features product listings, a chat system, a chatbot, and user authentication.",
-    technologies: [ "React","Tailwind CSS","AI Chatbot"]
+    technologies: [ "React","Tailwind CSS","AI Chatbot"],
+    github:"https://github.com/Abhiraj35/AgriEmpower",
+    link: "https://agriamigo.netlify.app/"
   },
   {
     title: "two-good-co",
@@ -46,6 +48,8 @@ export const PROJECTS = [
     description:
       "Two-Good-Co is a clone website I created during my frontend development learning phase. It features advanced animations and microinteractions, providing a hands-on experience in building dynamic user interfaces.",
     technologies: ["HTML", "CSS", "JavaScript", "GASP","Locomotive Js"],
+    github:"https://github.com/Abhiraj35/two-good-co",
+    link: "https://abhiraj35.github.io/two-good-co/"
   },
   {
     title: "Miranda - Paper Animated Website",
@@ -53,6 +57,9 @@ export const PROJECTS = [
     description:
       "Miranda - Paper Animated Website is a portfolio project I created to showcase my animation skills. It features unique paper-like animations and smooth transitions, and is listed on awarded websites for its creative design and interactive user experience.",
     technologies: ["HTML", "CSS", "JavaScript", "GASP","Locomotive Js" ],
+    github:"https://github.com/Abhiraj35/Miranda---paper-animated-website",
+    link: "https://abhiraj35.github.io/Miranda---paper-animated-website/"
+
   },
   
 ];
